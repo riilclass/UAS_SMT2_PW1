@@ -1,40 +1,3 @@
-/*=========================================================
-Template Name:estudy-Real Estate & Property HTML5 Template
-https://themeforest.net/user/website_stock/portfolio
-Description: Description
-Version: 1.0.0
-Text Domain: estudy
-Tags: 	agency, Business Agency, Business Consultant, business optimization, company website, consultancy, estudyng, estudyng Firm, corporate solutions, digital agency, financial analysis, market trends analysis, Strategic insights
-================================================*/
-
-/*TABLE OF CONTENTS*/
-/*=====================
-01. estudy Header Top Menu Area Css
-02. estudy Nav Menu Area Css 
-03. estudy Slider Area Css
-04. estudy Section Title Css
-05. estudy Service Area css
-06. estudy About Area Css
-07. estudy Counter Area Css
-08. estudy Testimonial Area Css
-09. estudy Process Area Css
-10. estudy Team Area Css
-11. estudy Faq Area Css
-12. estudy Call Do Section Css
-13. estudy Form Box Css
-14. estudy Blog Area Css
-15. estudy footer Area Css
-16. estudy Subscribe Area Css
-17. estudy Prossess Ber Css
-18. estudy Scrollup Section
-19. estudy Breadcumb Area Css
-20. estudy abouts_areas Css
-21. estudy Pricing Section Css
-22. estudy Contact  US Css
-23. estudy Blog Sidber Widget CSS
-24. estudy Search Box Css
-25. estudy Loader Css
-=======================*/
 
 
 
@@ -425,7 +388,7 @@ a.nest-btn.slider1:hover {
     font-size: 20px;
     line-height: 28px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 100;
     margin-bottom: 33px;
     position: relative;
     display: inline-block;
