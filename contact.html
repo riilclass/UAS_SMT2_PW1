@@ -46,7 +46,7 @@
 	<!--==================================================-->
 	<!-- Start Header Area -->
 	<!--==================================================-->
-	<header class="header-area bratcome" id="sticky-header">
+	<header class="header-area" id="sticky-header">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-2">
@@ -57,63 +57,23 @@
 				<div class="col-lg-10">
 					<div class="header-menu">
 						<ul>
-							<li><a href="#">Home <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="index.html">Home </a></li>
-										<li><a href="landing.html">Home Landing</a></li>
-										<li><a href="video.html">Home Video</a></li>
-									</ul>
-								</div>
+							<li><a href="index.html">Home <i class="bi bi-plus"></i></a>
 							</li>
-							<li><a href="#">Courses <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="course.html">Courses</a></li>
-										<li><a href="course-detials.html">Courses Details</a></li>
-									</ul>
-								</div>
+							<li><a href="#course">Courses <i class="bi bi-plus"></i></a>
 							</li>
-							<li><a href="#">Team <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="team.html">Team</a></li>
-										<li><a href="team-detials.html">Team Details</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Pages <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="team.html">Team</a></li>
-										<li><a href="team-detials.html">Team Details</a></li>
-										<li><a href="project-grid.html">Gallery</a></li>
-										<li><a href="projects-details.html">Gallery Details</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="error.html">Error Page</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Blog <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="blog-details.html">Blog Details</a></li>
-									</ul>
-								</div>
+							<li><a href="#team">Team <i class="bi bi-plus"></i></a>
 							</li>
 							<li><a href="contact.html">Contacts</a></li>
 							<li><a class="handbag" href="#"><i class="bi bi-cart-fill"></i></a></li>
 							<li><a class="user" href="#"><i class="bi bi-person-fill"></i></a></li>
 						</ul>
 						<div class="main-btn">
-							<a href="about.html" class="nest-btn">
+							<a href="#" class="nest-btn">
 								<span class="nest-btn__shape"></span>
 								<span class="nest-btn__shape"></span>
 								<span class="nest-btn__shape"></span>
 								<span class="nest-btn__shape"></span>
-								<span class="nest-btn__text">Get Started</span>
+								<button id="getStarted" class="nest-btn__text ehehe"> Get Started</button>
 							</a>
 						</div>
 					</div>
@@ -135,9 +95,11 @@
 			</div>
 		</div>
 	</div>
+		  
 	<!--==================================================-->
 	<!-- End Header Area -->
 	<!--==================================================-->
+
 
 	<!--==================================================-->
 	<!-- Start Breatcome Area -->
@@ -174,15 +136,15 @@
 				<div class="col-lg-4 col-md-12">
 					<div class="contact-single-box">
 						<div class="contact-title">
-							<h4>Contact Informatlon</h4>
+							<h4>Informasi Kontak</h4>
 						</div>
 						<div class="contact-items">
 							<div class="contact-icon">
 								<i class="bi bi-geo-alt-fill"></i>
 							</div>
 							<div class="contact-content">
-								<h4>Address</h4>
-								<h6>7515 Carriage Court,</h6>
+								<h4>Alamat</h4>
+								<h6>7515 Pontianak, Kalimantan Barat</h6>
 							</div>
 						</div>
 						<div class="contact-items">
@@ -190,8 +152,8 @@
 								<i class="bi bi-phone-fill"></i>
 							</div>
 							<div class="contact-content">
-								<h4>Contact Namber</h4>
-								<h6>(+6656) 1598596969</h6>
+								<h4>Nomor Kontak</h4>
+								<h6>(+62) 87812230737</h6>
 							</div>
 						</div>
 						<div class="contact-items">
@@ -199,8 +161,8 @@
 								<i class="bi bi-envelope-fill"></i>
 							</div>
 							<div class="contact-content">
-								<h4>Email Us</h4>
-								<h6>example@gmail.com</h6>
+								<h4>Email Kami</h4>
+								<h6>admin@espro.com</h6>
 							</div>
 						</div>
 					</div>
@@ -214,17 +176,17 @@
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
-										<input type="text" name="name" placeholder="Your Name">
+										<input type="text" name="name" placeholder="Nama Lengkap">
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
-										<input type="text" name="email" placeholder="Email Address">
+										<input type="text" name="email" placeholder="Alamat Email">
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
-										<input type="text" name="phone" placeholder="Phone Numbar">
+										<input type="text" name="phone" placeholder="Nomor WhatsApp">
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
@@ -234,13 +196,13 @@
 								</div>
 								<div class="col-lg-12">
 									<div class="form-box">
-										<input type="text" name="name" placeholder="Your Company Name">
+										<input type="text" name="name" placeholder="Nama Perusahaan">
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box">
 										<textarea name="massage" id="massage" cols="30" rows="10"
-											placeholder="Write your question here"></textarea>
+											placeholder="Tulis Pertanyaan kamu disini ..."></textarea>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
@@ -335,39 +297,14 @@
 								<ul>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Home <i
 												class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="index.html">Home </a></li>
-											<li><a href="landing.html">Home Landing</a></li>
-											<li><a href="video.html">Home Video</a></li>
-										</ul>
 									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Courses <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="service.html">Courses</a></li>
-											<li><a href="course-details.html">Courses Details</a></li>
-										</ul>
+									<li class="dropdown"><a href="#course" data-toggle="dropdown">Courses <i class="icon-arrow"></i></a>
 									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Team <i class="icon-arrow"></i></a>
+									<li class="dropdown"><a href="#" data-toggle="dropdown">Team <i
+												class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="team.html">Team</a></li>
+											<li><a href="#team">Team</a></li>
 											<li><a href="team-detials.html">Team Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#project" data-toggle="dropdown">Pages <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="team.html">Team</a></li>
-											<li><a href="team-detials.html">Team Details</a></li>
-											<li><a href="project-grid.html">Gallery</a></li>
-											<li><a href="projects-details.html">Gallery Details</a></li>
-											<li><a href="faq.html">Faq Page</a></li>
-											<li><a href="contact.html">Contact</a></li>
-											<li><a href="error.html">Error Page</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Blog <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="blog.html">Blog</a></li>
-											<li><a href="blog-details.html">Blog Details</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contacts</a></li>
@@ -376,10 +313,10 @@
 							<div class="contact-info">
 								<h2>Contact Info</h2>
 								<ul class="list-style-one">
-									<li><i class="bi bi-geo-alt-fill"></i>6391 Elgin St. Celina, Delaware</li>
-									<li><i class="bi bi-telephone-fill"></i>(+001) 123-456-789</li>
+									<li><i class="bi bi-geo-alt-fill"></i>sinasaurus</li>
+									<li><i class="bi bi-telephone-fill"></i>(+62) 87812230737</li>
 									<li><i class="bi bi-envelope"></i> info@example.com</li>
-									<li><i class="bi bi-alarm-fill"></i> Week Days: 08.00 to 10.00
+									<li><i class="bi bi-alarm-fill"></i> Jam Kerja: 08.00 to 10.00
 									</li>
 								</ul>
 							</div>
@@ -398,7 +335,7 @@
 	</div>
 	<!--==================================================-->
 	<!-- End Sidebar Area -->
-	<!--==================================================-->
+	<!--==================================================-->		
 
 	<!--==================================================-->
 	<!-- Start Footer Area -->
@@ -418,10 +355,10 @@
 							<img src="assets/images/footer-logo.png" alt="">
 						</div>
 						<div class="footer-wiget-text">
-							<h4>Get a full cRontrol of debts in the dsu digital world simpl labore et dolore ma</h4>
+							<h4>Bisa bikin web tanpa ngoding, wow!</h4>
 						</div>
 						<div class="footer-socilal-title">
-							<h4>Follow us on</h4>
+							<h4>Ikuti kami di</h4>
 						</div>
 						<div class="footer-social">
 							<ul>
@@ -461,10 +398,10 @@
 										<i class="bi bi-geo-alt"></i>
 									</div>
 									<div class="title">
-										<h6>Address</h6>
+										<h6>Alamat</h6>
 									</div>
 									<div class="adress">
-										<a href="#">244, First Floor, Los Angeles </a>
+										<a href="#">Pontianak, Kalimantan Barat </a>
 									</div>
 								</li>
 								<li>
@@ -472,12 +409,12 @@
 										<i class="bi bi-telephone-plus-fill"></i>
 									</div>
 									<div class="title">
-										<h6>Phone</h6>
+										<h6>Telfon</h6>
 									</div>
 									<div class="adress">
-										<a href="#">(+01) 123 456 7890</a>
+										<a href="#">(+62) 878 1223 0737</a>
 									</div>
-								</li>	
+								</li>
 								<li>
 									<div class="icon">
 										<i class="bi bi-envelope"></i>
@@ -486,7 +423,7 @@
 										<h6>Email</h6>
 									</div>
 									<div class="adress">
-										<a href="#">info@example.com</a>
+										<a href="#">admin@espro.com</a>
 									</div>
 								</li>
 							</ul>
@@ -514,7 +451,7 @@
 			<div class="row align-items-center mt-90">
 				<div class="col-lg-6 col-md-12">
 					<div class="copyright-text">
-						<p>© 2023 - 2025 | Alrights reserved by <a href="https://themeforest.net/user/website_stock/portfolio">website_stock</a></p>
+						<p>Developed with 🤍 By Anak-anak Pak Riad</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -545,6 +482,19 @@
 	<!--==================================================-->
 	<!-- End scrollup section Area -->
 	<!--==================================================-->
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+		  <span class="close">&times;</span>
+		  <h2>Information</h2>
+		  <table>
+			<tr>
+			  <td>Website ini dibuat untuk memenuhi Nilai UAS Matakuliah Pemrograman Web 1, Universitas Siber Asia.</td>
+			</tr>
+		  </table>
+		</div>
+	  </div>
 
 
 	<!-- jquery js -->

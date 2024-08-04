@@ -1,10 +1,20 @@
+<!---
+Identitas Klompok 
+Nama : 
+Arsina | 230401010199
+Aryo Tegar Pradigdo : 230401070201
+Nessa Valentina : 230401070208
+Dafone Phang : 230401070203
+Kelas : IT201
+Mata Kuliah : Pemrograman Web 
+-->
 <!DOCTYPE HTML>
 <html lang="en-US">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Estudy-Online Education Learning & LMS HTML Template</title>
+	<title>EksplorProgram</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
@@ -58,51 +68,11 @@
 				<div class="col-lg-10">
 					<div class="header-menu">
 						<ul>
-							<li><a href="#">Home <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="index.html">Home </a></li>
-										<li><a href="landing.html">Home Landing</a></li>
-										<li><a href="video.html">Home Video</a></li>
-									</ul>
-								</div>
+							<li><a href="#index.html">Home <i class="bi bi-plus"></i></a>
 							</li>
-							<li><a href="#">Courses <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="course.html">Courses</a></li>
-										<li><a href="course-detials.html">Courses Details</a></li>
-									</ul>
-								</div>
+							<li><a href="#course">Courses <i class="bi bi-plus"></i></a>
 							</li>
-							<li><a href="#">Team <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="team.html">Team</a></li>
-										<li><a href="team-detials.html">Team Details</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Pages <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="team.html">Team</a></li>
-										<li><a href="team-detials.html">Team Details</a></li>
-										<li><a href="project-grid.html">Gallery</a></li>
-										<li><a href="projects-details.html">Gallery Details</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="error.html">Error Page</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Blog <i class="bi bi-plus"></i></a>
-								<div class="sub-menu">
-									<ul>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="blog-details.html">Blog Details</a></li>
-									</ul>
-								</div>
+							<li><a href="#team">Team <i class="bi bi-plus"></i></a>
 							</li>
 							<li><a href="contact.html">Contacts</a></li>
 							<li><a class="handbag" href="#"><i class="bi bi-cart-fill"></i></a></li>
@@ -114,7 +84,7 @@
 								<span class="nest-btn__shape"></span>
 								<span class="nest-btn__shape"></span>
 								<span class="nest-btn__shape"></span>
-								<span class="nest-btn__text">Get Started</span>
+								<button id="getStarted" class="nest-btn__text ehehe"> Get Started</button>
 							</a>
 						</div>
 					</div>
@@ -136,6 +106,7 @@
 			</div>
 		</div>
 	</div>
+
 	<!--==================================================-->
 	<!-- End Header Area -->
 	<!--==================================================-->
@@ -164,18 +135,18 @@
 					<div class="col-lg-6">
 						<div class="slider-content">
 							<div class="slider-main-title">
-								<h1>Welcome to Espro!</h1>
+								<h1>Welcome to <b>Espro!</h1></b>
 							</div>
 							<div class="slider-sub-title">
-								<h4>Apakah kamu siap untuk mengeksplor dunia pengembangan web? Di sini, kami menyediakan tutorial, artikel, dan proyek yang akan membantu Anda menguasai keterampilan pemrograman web dari dasar hingga tingkat lanjutan.</h4>
+								<h4>Apakah kamu siap untuk mengeksplor dunia pengembangan web? <br>Di sini, kami menyediakan tutorial, course, dan proyek<br> yang akan membantu Anda menguasai keterampilan <br><b>pemrograman web dari dasar hingga tingkat lanjutan.</b></h4>
 							</div>
 							<div class="main-btn slider1">
-								<a href="#" class="nest-btn slider1">
+								<a href="#abs" class="nest-btn slider1">
 									<span class="nest-btn__shape slider"></span>
 									<span class="nest-btn__shape slider"></span>
 									<span class="nest-btn__shape slider"></span>
 									<span class="nest-btn__shape slider"></span>
-									<span class="nest-btn__text">Our Courses</span>
+									<span class="nest-btn__text">About Us</span>
 								</a>
 							</div>
 						</div>
@@ -230,10 +201,13 @@
 	<!--==================================================-->
 	<!-- Start Catagories  Area -->
 	<!--==================================================-->
-	<div class="catagories-area">
+	<div class="catagories-area" id="abs">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-12">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/nu_pCVPKzTk?si=hvoLelSpKG7yq56H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 col-md-12">
 					<div class="section-title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
 						<div class="section-title-shape">
 							<img src="assets/images/resource/section-shape.png" alt="">
@@ -242,7 +216,8 @@
 							<h4>About Us</h4>
 						</div>
 						<div class="section-main-title">
-							<h2>Mengenal EksplorProgram</h2>
+							<h2>Kenalan dengan <b>Espro!</b></h2>
+							<p>Eksplor Program adalah sekelompok pengembang web dan penggemar teknologi yang berkomitmen untuk memberikan edukasi berkualitas di bidang pemrograman web. Misi kami adalah membantu Anda memahami dan menguasai keterampilan yang diperlukan untuk menjadi seorang web developer professional.</p>
 						</div>
 					</div>
 				</div>
@@ -263,7 +238,7 @@
 						<div class="section-title-shape">
 							<img src="assets/images/resource/section-shape.png" alt="">
 						</div>
-						<div class="section-sub-title">
+						<div class="section-sub-title" id="course">
 							<h4>Browse Categories</h4>
 						</div>
 						<div class="section-main-title">
@@ -274,13 +249,13 @@
 				<div class="col-lg-6 col-md-12">
 					<ul class="course-menu d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s"
 						data-wow-duration="1s">
-						<li class=""><a href="#!" data-mixitup-control="" data-filter=".ios" class="">Engineering</a>
+						<li class=""><a href="#!" data-mixitup-control="" data-filter=".ios" class="">Web Design</a>
 						</li>
-						<li class=""><a href="#!" data-mixitup-control="" data-filter=".and" class=""> Data science</a>
+						<li class=""><a href="#!" data-mixitup-control="" data-filter=".and" class="">CSS</a>
 						</li>
-						<li class=""><a href="#!" data-mixitup-control="" data-filter=".mar" class="">Graphic Design</a>
+						<li class=""><a href="#!" data-mixitup-control="" data-filter=".mar" class="">JavaScript</a>
 						</li>
-						<li><a href="#!" data-mixitup-control="" data-filter=".des">Business</a></li>
+						<li><a href="#!" data-mixitup-control="" data-filter=".des">PHP</a></li>
 					</ul>
 				</div>
 			</div>
@@ -288,8 +263,8 @@
 				<div class="col-lg-4 col-md-6 mix ios des">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course1.png" alt="">
-							<img src="assets/images/course/course1.png" alt="">
+							<img src="assets/images/course/web1.png" alt="">
+							<img src="assets/images/course/web1.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -299,7 +274,7 @@
 										<img src="assets/images/course/shape1.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Kevin Martin</h4>
+										<h4>Rudi Tabuti</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -314,19 +289,18 @@
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 22 Modul</span>
+								<span><i class="bi bi-clock"></i> 1 Jam 17 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">lms The Complete Salesforce
-										Classic Certification</a></h4>
+								<h4><a href="https://youtu.be/R_gFhRsWLMw?si=U_XzjelTif22ljkA">Web Design Software</a></h4>
 							</div>
 							<div class="course-bottom">
 								<div class="course-price">
-									<span>$45.00</span>
+									<span>Rp.450.000</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -335,8 +309,8 @@
 				<div class="col-lg-4 col-md-6 mix ios and">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course2.png" alt="">
-							<img src="assets/images/course/course2.png" alt="">
+							<img src="assets/images/course/web3.png" alt="">
+							<img src="assets/images/course/web3.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -346,7 +320,7 @@
 										<img src="assets/images/course/shape2.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Gus Atkinson</h4>
+										<h4>Joko Widodo</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -361,18 +335,18 @@
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 22 Modul</span>
+								<span><i class="bi bi-clock"></i> 1 Jam 17 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">Foundation Course to Under Stand About Softwere</a></h4>
+								<h4><a href="https://www.youtube.com/watch?v=jS4aFq5-91M">Belajar Dasar Desain Web</a></h4>
 							</div>
 							<div class="course-bottom">
 								<div class="course-price">
-									<span>$45.00</span>
+									<span>Rp.250.000</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -381,8 +355,8 @@
 				<div class="col-lg-4 col-md-6 mix mar des">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course3.png" alt="">
-							<img src="assets/images/course/course3.png" alt="">
+							<img src="assets/images/course/js1.png" alt="">
+							<img src="assets/images/course/js1.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -392,7 +366,7 @@
 										<img src="assets/images/course/shape3.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Jessica Brown</h4>
+										<h4>Susilo Bambang Y</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -401,25 +375,24 @@
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
-									<span>(29)</span>
+									<span>(45)</span>
 								</div>
 							</div>
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 22 Modul</span>
+								<span><i class="bi bi-clock"></i> 1 Jam 45 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">Writing With Flair Become A
-										Top Rated Writer</a></h4>
+								<h4><a href="https://www.youtube.com/watch?v=jS4aFq5-91M">Kelas JavaScript</a></h4>
 							</div>
 							<div class="course-bottom">
 								<div class="course-price">
-									<span>$45.00</span>
+									<span>Rp.675.000</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -428,8 +401,8 @@
 				<div class="col-lg-4 col-md-6 mix and des">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course4.png" alt="">
-							<img src="assets/images/course/course4.png" alt="">
+							<img src="assets/images/course/css.png" alt="">
+							<img src="assets/images/course/css.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -439,7 +412,7 @@
 										<img src="assets/images/course/shape4.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Kevin Martin</h4>
+										<h4>Mamah Dedeh</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -448,25 +421,24 @@
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
-									<span>(29)</span>
+									<span>(100)</span>
 								</div>
 							</div>
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 30 Modul</span>
+								<span><i class="bi bi-clock"></i> 1 Jam 12 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">lms The Complete Salesforce
-										Classic Certification</a></h4>
+								<h4><a href="#">Apa itu WireFrame?</a></h4>
 							</div>
 							<div class="course-bottom">
-								<div class="course-price">
-									<span>$45.00</span>
+								<div class="cousrse-price">
+									<span>Rp.390.000</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -475,8 +447,8 @@
 				<div class="col-lg-4 col-md-6 mix mar ios">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course5.png" alt="">
-							<img src="assets/images/course/course5.png" alt="">
+							<img src="assets/images/course/php.png" alt="">
+							<img src="assets/images/course/php.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -486,7 +458,7 @@
 										<img src="assets/images/course/shape5.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Nancy Lawson</h4>
+										<h4>Mama Ghufron</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -495,25 +467,24 @@
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
-									<span>(29)</span>
+									<span>(99)</span>
 								</div>
 							</div>
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 89 Modul</span>
+								<span><i class="bi bi-clock"></i> 16 Jam 10 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">Beginner Nikon Digital DSLR
-										Photography Course</a></h4>
+								<h4><a href="https://www.youtube.com/watch?v=TaBWhb5SPfc">Tutorial Dasar PHP</a></h4>
 							</div>
 							<div class="course-bottom">
 								<div class="course-price">
-									<span>$45.00</span>
+									<span>Rp.990.999</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -522,8 +493,8 @@
 				<div class="col-lg-4 col-md-6 mix and mar">
 					<div class="course-single-box wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
 						<div class="course-thumb">
-							<img src="assets/images/course/course6.png" alt="">
-							<img src="assets/images/course/course6.png" alt="">
+							<img src="assets/images/course/web2.png" alt="">
+							<img src="assets/images/course/web2.png" alt="">
 							<div class="course-icon">
 								<i class="bi bi-heart"></i>
 							</div>
@@ -533,7 +504,7 @@
 										<img src="assets/images/course/shape6.png" alt="">
 									</div>
 									<div class="course-shape-title">
-										<h4>Nathan Joe</h4>
+										<h4>Adolf Hitler</h4>
 									</div>
 								</div>
 								<div class="course-star">
@@ -548,18 +519,18 @@
 						</div>
 						<div class="course-content">
 							<div class="course-meta">
-								<span><i class="bi bi-book"></i> 22 Lesson</span>
-								<span><i class="bi bi-clock"></i> 1 hr 17 min</span>
+								<span><i class="bi bi-book"></i> 22 Modul</span>
+								<span><i class="bi bi-clock"></i> 1 Jam 17 min</span>
 							</div>
 							<div class="course-title">
-								<h4><a href="#">Foundation Course to Under Stand About Softwere</a></h4>
+								<h4><a href="https://youtu.be/j6Ule7GXaRs?si=MFS4-nvbk8EvLVvA">Web Design 101: Full Course</a></h4>
 							</div>
 							<div class="course-bottom">
 								<div class="course-price">
-									<span>$45.00</span>
+									<span>Rp.450.000</span>
 								</div>
 								<div class="course-cart">
-									<a href="#"><i class="bi bi-cart-fill"></i> Add To Cart</a>
+									<a href="#"><i class="bi bi-cart-fill"></i> Masukkan Keranjang</a>
 								</div>
 							</div>
 						</div>
@@ -580,16 +551,16 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-12">
 					<div class="help-sub-title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-						<h4>BEST LEARNING PLATFORM</h4>
+						<h4>PLATFORM BELAJAR TERBAIK</h4>
 					</div>
 					<div class="help-main-title wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-						<h2>One Platfrom Many</h2>
-						<h2>Courses You</h2>
+						<h2>Jadi Programmer</h2>
+						<h2>Tanpa Ngoding</h2>
 					</div>
 					<div class="help-list wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-						<span><i class="bi bi-check"></i> Easy Online Learning Platform</span>
-						<span><i class="bi bi-check"></i> 98% Course Completitation Rates</span>
-						<span><i class="bi bi-check"></i> Friendly Enviroments & Teachers</span>
+						<span><i class="bi bi-check"></i> Belajar Prompting di ChatGPT</span>
+						<span><i class="bi bi-check"></i> Bikin AI pake Assembly</span>
+						<span><i class="bi bi-check"></i> Baca Binner 1 Detik</span>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -598,8 +569,8 @@
 							<img src="assets/images/resource/help-icon.png" alt="">
 						</div>
 						<div class="help-items-content">
-							<h6>Need Help? Call us</h6>
-							<h4><a href="#">+91 458 654 528</a></h4>
+							<h6>Perlu Bantuan?Hubungi Kami</h6>
+							<h4><a href="#">+62 878 1223 0737</a></h4>
 						</div>
 					</div>
 				</div>
@@ -611,100 +582,9 @@
 	<!--==================================================-->
 
 	<!--==================================================-->
-	<!-- Start Choose us Area -->
-	<!--==================================================-->
-	<div class="choose-us-area">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6 col-md-12">
-					<div class="section-title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-						<div class="section-title-shape">
-							<img src="assets/images/resource/section-shape.png" alt="">
-						</div>
-						<div class="section-sub-title">
-							<h4>Choose From 5,000 Online</h4>
-						</div>
-						<div class="section-main-title">
-							<h2>Upcoming Course Section</h2>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="main-btn choose wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-						<a href="about.html" class="nest-btn choose">
-							<span class="nest-btn__shape"></span>
-							<span class="nest-btn__shape"></span>
-							<span class="nest-btn__shape"></span>
-							<span class="nest-btn__shape"></span>
-							<span class="nest-btn__text"> View All <i class="bi bi-arrow-right"></i></span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="choose-single-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-						<div class="choose-thumb">
-							<img src="assets/images/resource/choose1.png" alt="">
-						</div>
-						<div class="choose-content">
-							<span>August 31, 2024</span>
-							<h4>The Complete Salesforce To
-								Classic Certification</h4>
-							<p><i class="bi bi-geo-alt-fill"></i> Humberg City, Germany</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="choose-single-box wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-						<div class="choose-thumb">
-							<img src="assets/images/resource/choose2.png" alt="">
-						</div>
-						<div class="choose-content">
-							<span>August 31, 2024</span>
-							<h4>The Complete Salesforce To
-								Classic Certification</h4>
-							<p><i class="bi bi-geo-alt-fill"></i> Humberg City, Germany</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="choose-single-box wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-						<div class="choose-thumb">
-							<img src="assets/images/resource/choose3.png" alt="">
-						</div>
-						<div class="choose-content">
-							<span>August 31, 2024</span>
-							<h4>The Complete Salesforce To
-								Classic Certification</h4>
-							<p><i class="bi bi-geo-alt-fill"></i> Humberg City, Germany</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="choose-single-box wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s">
-						<div class="choose-thumb">
-							<img src="assets/images/resource/choose4.png" alt="">
-						</div>
-						<div class="choose-content">
-							<span>August 31, 2024</span>
-							<h4>The Complete Salesforce To
-								Classic Certification</h4>
-							<p><i class="bi bi-geo-alt-fill"></i> Humberg City, Germany</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Choose us Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
 	<!-- Start Team Area -->
 	<!--==================================================-->
-	<div class="team-area">
+	<div class="team-area" id="team">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -713,10 +593,10 @@
 							<img src="assets/images/resource/section-shape.png" alt="">
 						</div>
 						<div class="section-sub-title">
-							<h4>Consult with your favorite</h4>
+							<h4>Team Kami</h4>
 						</div>
 						<div class="section-main-title">
-							<h2>Personalised Training</h2>
+							<h2>Belajar Dengan Tutor Terbaik</h2>
 						</div>
 					</div>
 				</div>
@@ -729,8 +609,8 @@
 						</div>
 						<div class="team-content">
 							<div class="team-title">
-								<h4><a href="team-detials.html">Earle Goodman</a></h4>
-								<span>Master's Degree</span>
+								<h4><a href="#">Arsina</a></h4>
+								<span>230401010199</span>
 							</div>
 							<div class="team-social-icon">
 								<ul>
@@ -741,7 +621,7 @@
 								</ul>
 							</div>
 							<div class="team-btn">
-								<a href="team-detials.html">Book Schedule</a>
+								<a href="#">Hubungi</a>
 							</div>
 						</div>
 					</div>
@@ -753,8 +633,8 @@
 						</div>
 						<div class="team-content">
 							<div class="team-title">
-								<h4><a href="team-detials.html">Sarah Taylor</a></h4>
-								<span>UX/UI Expert</span>
+								<h4><a href="team-detials.html">Aryo Tegar Pradigdo</a></h4>
+								<span>230401070201</span>
 							</div>
 							<div class="team-social-icon">
 								<ul>
@@ -765,7 +645,7 @@
 								</ul>
 							</div>
 							<div class="team-btn">
-								<a href="team-detials.html">Book Schedule</a>
+								<a href="#">Hubungi</a>
 							</div>
 						</div>
 					</div>
@@ -777,8 +657,8 @@
 						</div>
 						<div class="team-content">
 							<div class="team-title">
-								<h4><a href="team-detials.html">Hunter Hunter</a></h4>
-								<span>Math Teacher</span>
+								<h4><a href="#">Dafone Phang</a></h4>
+								<span>230401070203</span>
 							</div>
 							<div class="team-social-icon">
 								<ul>
@@ -789,7 +669,7 @@
 								</ul>
 							</div>
 							<div class="team-btn">
-								<a href="team-detials.html">Book Schedule</a>
+								<a href="#">Hubungi</a>
 							</div>
 						</div>
 					</div>
@@ -801,8 +681,8 @@
 						</div>
 						<div class="team-content">
 							<div class="team-title">
-								<h4><a href="team-detials.html">Norris Weeks</a></h4>
-								<span>Depertment Head</span>
+								<h4><a href="#">Nessa Valentina</a></h4>
+								<span>230401070208</span>
 							</div>
 							<div class="team-social-icon">
 								<ul>
@@ -813,7 +693,7 @@
 								</ul>
 							</div>
 							<div class="team-btn">
-								<a href="team-detials.html">Book Schedule</a>
+								<a href="#">Hubungi</a>
 							</div>
 						</div>
 					</div>
@@ -826,152 +706,6 @@
 	<!--==================================================-->
 
 	<!--==================================================-->
-	<!-- Start Instractor Area -->
-	<!--==================================================-->
-	<div class="instractor-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="intractor-single-box wow fadeInUp animated" data-wow-delay="600ms">
-						<div class="instractor-content">
-							<h4>Free Online Courses From
-								School To Education</h4>
-							<p>Top instructors from around the world teach millions of students on EduMall.</p>
-							<a href="#">Become A Instructor</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="intractor-single-box two wow fadeInUp animated" data-wow-delay="800ms">
-						<div class="instractor-content">
-							<h4>Join Our Community
-								School To Education</h4>
-							<p>Top instructors from around the world teach millions of students on EduMall.</p>
-							<a href="#">Register For Free</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Instractor Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
-	<!-- Start Video Gallery Area -->
-	<!--==================================================-->
-	<div class="video-gallery-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center wow fadeInUp animated" data-wow-delay="100ms">
-						<div class="section-title-shape">
-							<img src="assets/images/resource/section-shape.png" alt="">
-						</div>
-						<div class="section-sub-title">
-							<h4>LATEST VIDEO GALLERY</h4>
-						</div>
-						<div class="section-main-title video">
-							<h2>We Provide Life Changing</h2>
-							<h2>Video Tutorials</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="video-single-box wow fadeInUp animated" data-wow-delay="200ms">
-						<div class="video-thumb">
-							<img src="assets/images/resource/video1.png" alt="">
-							<div class="video-price">
-								<h4>$155</h4>
-							</div>
-							<div class="video-content">
-								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-										data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i
-											class="bi bi-play"></i></a>
-								</div>
-								<div class="video-title">
-									<h4>Online Education</h4>
-									<span>By Aiden Markram</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="video-single-box wow fadeInUp animated" data-wow-delay="400ms">
-						<div class="video-thumb">
-							<img src="assets/images/resource/video2.png" alt="">
-							<div class="video-price">
-								<h4>$125</h4>
-							</div>
-							<div class="video-content">
-								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-										data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i
-											class="bi bi-play"></i></a>
-								</div>
-								<div class="video-title">
-									<h4>Investment Planning</h4>
-									<span>By Joseph Anderson</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="video-single-box wow fadeInUp animated" data-wow-delay="600ms">
-						<div class="video-thumb">
-							<img src="assets/images/resource/video3.png" alt="">
-							<div class="video-price">
-								<h4>$227</h4>
-							</div>
-							<div class="video-content">
-								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-										data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i
-											class="bi bi-play"></i></a>
-								</div>
-								<div class="video-title">
-									<h4>Busines Consulting</h4>
-									<span>By Stewart Burgess</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="video-single-box wow fadeInUp animated" data-wow-delay="800ms">
-						<div class="video-thumb">
-							<img src="assets/images/resource/video4.png" alt="">
-							<div class="video-price">
-								<h4>$222</h4>
-							</div>
-							<div class="video-content">
-								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-										data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i
-											class="bi bi-play"></i></a>
-								</div>
-								<div class="video-title">
-									<h4>How To Fit Your Health</h4>
-									<span>By Aiden Markram</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Video Gallery Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
 	<!-- Start Subscribe Area -->
 	<!--==================================================-->
 	<div class="subscribe-area d-flex align-items-center">
@@ -979,7 +713,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-4 col-md-12">
 					<div class="subscribe-title wow fadeInUp animated" data-wow-delay="200ms">
-						<h4>Subscribe Our Newslatter</h4>
+						<h4>Berlangganan Artikel kami</h4>
 					</div>
 				</div>
 				<div class="col-lg-8 col-md-12">
@@ -988,12 +722,12 @@
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="subscribe-box wow fadeInUp animated" data-wow-delay="400ms">
-										<input type="text" name="Email" placeholder="Email Address">
+										<input type="text" name="Email" placeholder="Alamat Email">
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-12">
 									<div class="subscribe-button wow fadeInUp animated" data-wow-delay="600ms">
-										<button type="Submit">Subscribe <i class="bi bi-arrow-right"></i></button>
+										<button type="Submit">Berlangganan <i class="bi bi-arrow-right"></i></button>
 									</div>
 								</div>
 							</div>
@@ -1005,288 +739,6 @@
 	</div>
 	<!--==================================================-->
 	<!-- End Subscribe Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
-	<!-- Start Registration Area -->
-	<!--==================================================-->
-	<div class="registration-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="section-title wow fadeInUp animated" data-wow-delay="100ms">
-						<div class="section-sub-title registration">
-							<h4>Get Free Registration</h4>
-						</div>
-						<div class="section-main-title registration">
-							<h2>Register Your Account Get Free Access To 78,540 Online Courses</h2>
-						</div>
-						<div class="registration-discription">
-							<p>Learning from an online event involves several key steps. Firstly, it’s important to
-								research and choose an event that aligns with your learning objectives and interests.
-								Once you’ve registered for the event, make sure</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="registration-items-box wow fadeInUp animated" data-wow-delay="300ms">
-						<div class="registration-items-title">
-							<h4>Interested Discussing</h4>
-						</div>
-						<div class="registration-shape bounce-animate">
-							<img src="assets/images/resource/registration-shape.png" alt="">
-						</div>
-						<form action="https://formspree.io/f/myyleorq" method="POST">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="registration-form">
-										<input type="text" name="name" placeholder="Your Name">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="registration-form">
-										<input type="text" name="email" placeholder="Email Address">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="registration-form">
-										<input type="text" name="phone" placeholder="Phone Number">
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<div class="registration-form">
-										<textarea name="massage" id="massage" cols="30" rows="10"
-											placeholder="Write Message"></textarea>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<div class="registration-button">
-										<button type="Submit">Apply for it <i class="bi bi-arrow-right"></i></button>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Registration Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
-	<!-- Start Testimonial Area -->
-	<!--==================================================-->
-	<div class="testimonial-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center wow fadeInUp animated" data-wow-delay="100ms">
-						<div class="section-title-shape">
-							<img src="assets/images/resource/section-shape.png" alt="">
-						</div>
-						<div class="section-sub-title">
-							<h4>Clients About Us</h4>
-						</div>
-						<div class="section-main-title">
-							<h2>What Our Students Say</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="column">
-					<div class="testi-single-box wow fadeInUp animated" data-wow-delay="200ms">
-						<div class="testi-thumb">
-							<img src="assets/images/testimonial/testi1.png" alt="">
-							<div class="testi-content">
-								<h4>Earle Goodman</h4>
-								<span>WordPress Expert</span>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusntium doemqe
-									laudantium totam rem aperiam eaque ipsa quae</p>
-							</div>
-						</div>
-					</div>
-					<div class="testi-items-box two wow fadeInUp animated" data-wow-delay="400ms">
-						<div class="testi-shape">
-							<img src="assets/images/testimonial/testi-shape1.png" alt="">
-						</div>
-						<div class="testi-icon">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div>
-						<div class="testi-item-content">
-							<h4>Jacob Jones</h4>
-							<span>Web Developer</span>
-							<p>Duis aute irure dolor in reprehenderit into volupjl
-								tate velit esse cillum dolore eu fugiat nulla partr
-								iatur sunt in culp qui officia deserunt mollit</p>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="testi-items-box wow fadeInUp animated" data-wow-delay="600ms">
-						<div class="testi-shape">
-							<img src="assets/images/testimonial/testi-shape2.png" alt="">
-						</div>
-						<div class="testi-icon">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div>
-						<div class="testi-item-content">
-							<h4>Jacob Jones</h4>
-							<span>Web Developer</span>
-							<p>Duis aute irure dolor in reprehenderit into volupjl
-								tate velit esse cillum dolore eu fugiat nulla partr
-								iatur sunt in culp qui officia deserunt mollit</p>
-						</div>
-					</div>
-					<div class="testi-single-box wow fadeInUp animated" data-wow-delay="800ms">
-						<div class="testi-thumb">
-							<img src="assets/images/testimonial/testi1.png" alt="">
-							<div class="testi-content">
-								<h4>Lindsay Lohan</h4>
-								<span>Senior Consultant</span>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusntium doemqe
-									laudantium totam rem aperiam eaque ipsa quae</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="testi-single-box wow fadeInUp animated" data-wow-delay="1000ms">
-						<div class="testi-thumb">
-							<img src="assets/images/testimonial/testi2.png" alt="">
-							<div class="testi-content">
-								<h4>Antwan Perkins</h4>
-								<span>Digital Marketer</span>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusntium doemqe
-									laudantium totam rem aperiam eaque ipsa quae</p>
-							</div>
-						</div>
-					</div>
-					<div class="testi-items-box two wow fadeInUp animated" data-wow-delay="1200ms">
-						<div class="testi-shape">
-							<img src="assets/images/testimonial/testi-shape3.png" alt="">
-						</div>
-						<div class="testi-icon">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-						</div>
-						<div class="testi-item-content">
-							<h4>Mohammed Shami</h4>
-							<span>Social Media Specialist</span>
-							<p>Duis aute irure dolor in reprehenderit into volupjl
-								tate velit esse cillum dolore eu fugiat nulla partr
-								iatur sunt in culp qui officia deserunt mollit</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Testimonial Area -->
-	<!--==================================================-->
-
-	<!--==================================================-->
-	<!-- Start Blog Area -->
-	<!--==================================================-->
-	<div class="blog-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center wow fadeInUp animated" data-wow-delay="100ms">
-						<div class="section-title-shape">
-							<img src="assets/images/resource/section-shape.png" alt="">
-						</div>
-						<div class="section-sub-title">
-							<h4>News & Blogs</h4>
-						</div>
-						<div class="section-main-title">
-							<h2>Leatest News & Blog</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="blog-single-box wow fadeInUp animated" data-wow-delay="200ms">
-						<div class="blog-thumb">
-							<img src="assets/images/blog/blog1.png" alt="">
-						</div>
-						<div class="blog-content">
-							<div class="blog-top">
-								<div class="blog-shape">
-									<img src="assets/images/blog/shape1.png" alt="">
-								</div>
-								<div class="blog-shape-title">
-									<h6>By-</h6>
-									<h6>Website_Stock</h6>
-								</div>
-							</div>
-							<div class="blog-text">
-								<h4><a href="blog-details.html">Useful VS Code Esions Front-End Develop</a></h4>
-								<p>Lorem ipsum dolor sit amet, atomorum ds sosidon ium est as Id vim rrem princi pes
-									suas molesti interpretaris</p>
-							</div>
-							<div class="blog-bottom">
-								<div class="blog-comment">
-									<h4><i class="bi bi-chat-right"></i> Comment (5)</h4>
-								</div>
-								<div class="blog-btn">
-									<a href="blog-details.html">More <i class="bi bi-caret-right-fill"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="blog-single-box wow fadeInUp animated" data-wow-delay="400ms">
-						<div class="blog-thumb">
-							<img src="assets/images/blog/blog2.png" alt="">
-						</div>
-						<div class="blog-content">
-							<div class="blog-top">
-								<div class="blog-shape">
-									<img src="assets/images/blog/shape2.png" alt="">
-								</div>
-								<div class="blog-shape-title">
-									<h6>By-</h6>
-									<h6>Website_Stock</h6>
-								</div>
-							</div>
-							<div class="blog-text">
-								<h4><a href="blog-details.html">Designing Better Linke Website And Email</a></h4>
-								<p>Lorem ipsum dolor sit amet, atomorum ds sosidon ium est as Id vim rrem princi pes
-									suas molesti interpretaris</p>
-							</div>
-							<div class="blog-bottom">
-								<div class="blog-comment">
-									<h4><i class="bi bi-chat-right"></i> Comment (5)</h4>
-								</div>
-								<div class="blog-btn">
-									<a href="blog-details.html">More <i class="bi bi-caret-right-fill"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Blog Area -->
 	<!--==================================================-->
 
 
@@ -1311,42 +763,14 @@
 								<ul>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Home <i
 												class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="index.html">Home </a></li>
-											<li><a href="landing.html">Home Landing</a></li>
-											<li><a href="video.html">Home Video</a></li>
-										</ul>
 									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Courses <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="service.html">Courses</a></li>
-											<li><a href="course-details.html">Courses Details</a></li>
-										</ul>
+									<li class="dropdown"><a href="#course" data-toggle="dropdown">Courses <i class="icon-arrow"></i></a>
 									</li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Team <i
 												class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="team.html">Team</a></li>
+											<li><a href="#team">Team</a></li>
 											<li><a href="team-detials.html">Team Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#project" data-toggle="dropdown">Pages <i
-												class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="team.html">Team</a></li>
-											<li><a href="team-detials.html">Team Details</a></li>
-											<li><a href="project-grid.html">Gallery</a></li>
-											<li><a href="projects-details.html">Gallery Details</a></li>
-											<li><a href="faq.html">Faq Page</a></li>
-											<li><a href="contact.html">Contact</a></li>
-											<li><a href="error.html">Error Page</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Blog <i
-												class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="blog.html">Blog</a></li>
-											<li><a href="blog-details.html">Blog Details</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contacts</a></li>
@@ -1355,10 +779,10 @@
 							<div class="contact-info">
 								<h2>Contact Info</h2>
 								<ul class="list-style-one">
-									<li><i class="bi bi-geo-alt-fill"></i>6391 Elgin St. Celina, Delaware</li>
-									<li><i class="bi bi-telephone-fill"></i>(+001) 123-456-789</li>
+									<li><i class="bi bi-geo-alt-fill"></i>sinasaurus</li>
+									<li><i class="bi bi-telephone-fill"></i>(+62) 87812230737</li>
 									<li><i class="bi bi-envelope"></i> info@example.com</li>
-									<li><i class="bi bi-alarm-fill"></i> Week Days: 08.00 to 10.00
+									<li><i class="bi bi-alarm-fill"></i> Jam Kerja: 08.00 to 10.00
 									</li>
 								</ul>
 							</div>
@@ -1397,10 +821,10 @@
 							<img src="assets/images/footer-logo.png" alt="">
 						</div>
 						<div class="footer-wiget-text">
-							<h4>Get a full cRontrol of debts in the dsu digital world simpl labore et dolore ma</h4>
+							<h4>Bisa bikin web tanpa ngoding, wow!</h4>
 						</div>
 						<div class="footer-socilal-title">
-							<h4>Follow us on</h4>
+							<h4>Ikuti kami di</h4>
 						</div>
 						<div class="footer-social">
 							<ul>
@@ -1440,10 +864,10 @@
 										<i class="bi bi-geo-alt"></i>
 									</div>
 									<div class="title">
-										<h6>Address</h6>
+										<h6>Alamat</h6>
 									</div>
 									<div class="adress">
-										<a href="#">244, First Floor, Los Angeles </a>
+										<a href="#">Pontianak, Kalimantan Barat </a>
 									</div>
 								</li>
 								<li>
@@ -1451,10 +875,10 @@
 										<i class="bi bi-telephone-plus-fill"></i>
 									</div>
 									<div class="title">
-										<h6>Phone</h6>
+										<h6>Telfon</h6>
 									</div>
 									<div class="adress">
-										<a href="#">(+01) 123 456 7890</a>
+										<a href="#">(+62) 878 1223 0737</a>
 									</div>
 								</li>
 								<li>
@@ -1465,7 +889,7 @@
 										<h6>Email</h6>
 									</div>
 									<div class="adress">
-										<a href="#">info@example.com</a>
+										<a href="#">admin@espro.com</a>
 									</div>
 								</li>
 							</ul>
@@ -1493,8 +917,7 @@
 			<div class="row align-items-center mt-90">
 				<div class="col-lg-6 col-md-12">
 					<div class="copyright-text">
-						<p>© 2023 - 2025 | Alrights reserved by <a
-								href="https://themeforest.net/user/website_stock/portfolio">website_stock</a></p>
+						<p>Developed with 🤍 By Anak-anak Pak Riad</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -1526,6 +949,20 @@
 	<!--==================================================-->
 	<!-- End scrollup section Area -->
 	<!--==================================================-->
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+			  <span class="close">&times;</span>
+			  <h2>Information</h2>
+			  <table>
+				<tr>
+				  <td>Website ini dibuat untuk memenuhi Nilai UAS Matakuliah Pemrograman Web 1, Universitas Siber Asia.</td>
+				</tr>
+			  </table>
+			</div>
+		  </div>
+		  
 
 
 	<!-- jquery js -->
